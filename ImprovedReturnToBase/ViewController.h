@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <DJISDK/DJISDK.h>
+@interface ViewController : UIViewController<DJIDroneDelegate>{
+    DJIDrone*_drone;
+    DJIRemoteController*_rc;
+    NSObject<DJIGroundStation>* _groundStation;
+}
+@property (weak, nonatomic) IBOutlet UIButton *AdjustGimbalAngle;
 
-@interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *returnHomeText;
+@property (weak, nonatomic) IBOutlet UISwitch *returnHomeSwitch;
 @end

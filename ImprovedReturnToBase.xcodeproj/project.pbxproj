@@ -12,7 +12,7 @@
 		A0DEF66A1B457E600028041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6691B457E600028041D /* UIKit.framework */; };
 		A0DEF6701B457E600028041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0DEF66E1B457E600028041D /* InfoPlist.strings */; };
 		A0DEF6721B457E600028041D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF6711B457E600028041D /* main.m */; };
-		A0DEF6761B457E600028041D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF6751B457E600028041D /* AppDelegate.m */; };
+		A0DEF6761B457E600028041D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF6751B457E600028041D /* AppDelegate.mm */; };
 		A0DEF6791B457E600028041D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DEF6771B457E600028041D /* Main_iPhone.storyboard */; };
 		A0DEF67C1B457E600028041D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DEF67A1B457E600028041D /* Main_iPad.storyboard */; };
 		A0DEF67F1B457E600028041D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF67E1B457E600028041D /* ViewController.m */; };
@@ -22,6 +22,9 @@
 		A0DEF68A1B457E600028041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6691B457E600028041D /* UIKit.framework */; };
 		A0DEF6921B457E600028041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0DEF6901B457E600028041D /* InfoPlist.strings */; };
 		A0DEF6941B457E600028041D /* ImprovedReturnToBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF6931B457E600028041D /* ImprovedReturnToBaseTests.m */; };
+		A0DEF69E1B4580ED0028041D /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF69D1B4580ED0028041D /* DJISDK.framework */; };
+		A0DEF6A01B45812B0028041D /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */; };
+		A0DEF6A21B4581330028041D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6A11B4581330028041D /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,7 @@
 		A0DEF6711B457E600028041D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0DEF6731B457E600028041D /* ImprovedReturnToBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImprovedReturnToBase-Prefix.pch"; sourceTree = "<group>"; };
 		A0DEF6741B457E600028041D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A0DEF6751B457E600028041D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0DEF6751B457E600028041D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		A0DEF6781B457E600028041D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		A0DEF67B1B457E600028041D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A0DEF67D1B457E600028041D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -55,6 +58,9 @@
 		A0DEF68F1B457E600028041D /* ImprovedReturnToBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImprovedReturnToBaseTests-Info.plist"; sourceTree = "<group>"; };
 		A0DEF6911B457E600028041D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0DEF6931B457E600028041D /* ImprovedReturnToBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImprovedReturnToBaseTests.m; sourceTree = "<group>"; };
+		A0DEF69D1B4580ED0028041D /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../DJI_SDK_iOS_V2.0.0/Lib/DJISDK.framework; sourceTree = "<group>"; };
+		A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		A0DEF6A11B4581330028041D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0DEF6A21B4581330028041D /* libz.dylib in Frameworks */,
+				A0DEF6A01B45812B0028041D /* libstdc++.6.0.9.dylib in Frameworks */,
 				A0DEF6681B457E600028041D /* CoreGraphics.framework in Frameworks */,
+				A0DEF69E1B4580ED0028041D /* DJISDK.framework in Frameworks */,
 				A0DEF66A1B457E600028041D /* UIKit.framework in Frameworks */,
 				A0DEF6661B457E600028041D /* Foundation.framework in Frameworks */,
 			);
@@ -84,6 +93,7 @@
 		A0DEF6591B457E600028041D = {
 			isa = PBXGroup;
 			children = (
+				A0DEF69D1B4580ED0028041D /* DJISDK.framework */,
 				A0DEF66B1B457E600028041D /* ImprovedReturnToBase */,
 				A0DEF68D1B457E600028041D /* ImprovedReturnToBaseTests */,
 				A0DEF6641B457E600028041D /* Frameworks */,
@@ -103,6 +113,8 @@
 		A0DEF6641B457E600028041D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0DEF6A11B4581330028041D /* libz.dylib */,
+				A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */,
 				A0DEF6651B457E600028041D /* Foundation.framework */,
 				A0DEF6671B457E600028041D /* CoreGraphics.framework */,
 				A0DEF6691B457E600028041D /* UIKit.framework */,
@@ -115,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A0DEF6741B457E600028041D /* AppDelegate.h */,
-				A0DEF6751B457E600028041D /* AppDelegate.m */,
+				A0DEF6751B457E600028041D /* AppDelegate.mm */,
 				A0DEF6771B457E600028041D /* Main_iPhone.storyboard */,
 				A0DEF67A1B457E600028041D /* Main_iPad.storyboard */,
 				A0DEF67D1B457E600028041D /* ViewController.h */,
@@ -254,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0DEF67F1B457E600028041D /* ViewController.m in Sources */,
-				A0DEF6761B457E600028041D /* AppDelegate.m in Sources */,
+				A0DEF6761B457E600028041D /* AppDelegate.mm in Sources */,
 				A0DEF6721B457E600028041D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +402,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lucas/Desktop/DJI_SDK_iOS_V2.0.0/Lib,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImprovedReturnToBase/ImprovedReturnToBase-Prefix.pch";
 				INFOPLIST_FILE = "ImprovedReturnToBase/ImprovedReturnToBase-Info.plist";
@@ -403,6 +419,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/lucas/Desktop/DJI_SDK_iOS_V2.0.0/Lib,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImprovedReturnToBase/ImprovedReturnToBase-Prefix.pch";
 				INFOPLIST_FILE = "ImprovedReturnToBase/ImprovedReturnToBase-Info.plist";
@@ -470,6 +490,7 @@
 				A0DEF6991B457E600028041D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0DEF69A1B457E600028041D /* Build configuration list for PBXNativeTarget "ImprovedReturnToBaseTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +499,7 @@
 				A0DEF69C1B457E600028041D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
