@@ -21,7 +21,7 @@ const float STAY_TIME = 3.0;
 double rcLatitude;
 double rcLongitude;
 bool isReturning = false;
-
+//this text
 - (void)viewDidLoad
 {
     [super viewDidLoad];
