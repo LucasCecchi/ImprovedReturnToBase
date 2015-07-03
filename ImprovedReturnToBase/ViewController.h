@@ -13,8 +13,11 @@
     DJIRemoteController*_rc;
     NSObject<DJIGroundStation>* _groundStation;
 }
-@property (weak, nonatomic) IBOutlet UIButton *AdjustGimbalAngle;
 
 @property (weak, nonatomic) IBOutlet UITextField *returnHomeText;
 @property (weak, nonatomic) IBOutlet UISwitch *returnHomeSwitch;
+
+@property (weak, nonatomic) IBOutlet UITextField *connectionText;
+
+
 @end
