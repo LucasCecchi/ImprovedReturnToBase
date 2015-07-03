@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>853C6992-0F48-45A3-A00E-55E81076570D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImprovedReturnToBase</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C72FEFA1-DA5E-4765-B7AB-8733E40F2395</key>
+		<string>https://github.com/LucasCecchi/ImprovedReturnToBase.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImprovedReturnToBase.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C72FEFA1-DA5E-4765-B7AB-8733E40F2395</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LucasCecchi/ImprovedReturnToBase.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C72FEFA1-DA5E-4765-B7AB-8733E40F2395</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C72FEFA1-DA5E-4765-B7AB-8733E40F2395</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImprovedReturnToBase</string>
+		</dict>
+	</array>
+</dict>
+</plist>
