@@ -13,7 +13,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *appKey = @"Enter Your App Key";
+    [DJIAppManager registerApp:appKey withDelegate:self];
     return YES;
+}
+
+- (void)appManagerDidRegisterWithError: int(error){
+//Add register message later
+	if(error != RegisterSuccess){
+	//code for register failed
+	}
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
