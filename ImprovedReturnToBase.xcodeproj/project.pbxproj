@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A3D28F1B616EC70063AA34 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3D28E1B616EC70063AA34 /* DJISDK.framework */; };
+		A0A3D2911B6171ED0063AA34 /* Blue1 in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3D2901B6171ED0063AA34 /* Blue1 */; };
+		A0A3D2931B6171FD0063AA34 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3D2921B6171FD0063AA34 /* libstdc++.6.0.9.dylib */; };
+		A0A3D2951B61720D0063AA34 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3D2941B61720D0063AA34 /* libz.1.dylib */; };
+		A0A3D2961B61726A0063AA34 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A3D2921B6171FD0063AA34 /* libstdc++.6.0.9.dylib */; };
 		A0DEF6661B457E600028041D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6651B457E600028041D /* Foundation.framework */; };
 		A0DEF6681B457E600028041D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6671B457E600028041D /* CoreGraphics.framework */; };
 		A0DEF66A1B457E600028041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6691B457E600028041D /* UIKit.framework */; };
@@ -22,9 +27,6 @@
 		A0DEF68A1B457E600028041D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6691B457E600028041D /* UIKit.framework */; };
 		A0DEF6921B457E600028041D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0DEF6901B457E600028041D /* InfoPlist.strings */; };
 		A0DEF6941B457E600028041D /* ImprovedReturnToBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DEF6931B457E600028041D /* ImprovedReturnToBaseTests.m */; };
-		A0DEF69E1B4580ED0028041D /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF69D1B4580ED0028041D /* DJISDK.framework */; };
-		A0DEF6A01B45812B0028041D /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */; };
-		A0DEF6A21B4581330028041D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DEF6A11B4581330028041D /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0A3D28E1B616EC70063AA34 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = "../../Desktop/DJI-SDK-iOS-V2.1.0/Lib/DJISDK.framework"; sourceTree = "<group>"; };
+		A0A3D2901B6171ED0063AA34 /* Blue1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Blue1; path = ../../../../Volumes/Blue1; sourceTree = "<group>"; };
+		A0A3D2921B6171FD0063AA34 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "/Volumes/Blue1/libstdc++.6.0.9.dylib"; sourceTree = "<absolute>"; };
+		A0A3D2941B61720D0063AA34 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /Volumes/Blue1/libz.1.dylib; sourceTree = "<absolute>"; };
 		A0DEF6621B457E600028041D /* ImprovedReturnToBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImprovedReturnToBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DEF6651B457E600028041D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0DEF6671B457E600028041D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,9 +64,6 @@
 		A0DEF68F1B457E600028041D /* ImprovedReturnToBaseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImprovedReturnToBaseTests-Info.plist"; sourceTree = "<group>"; };
 		A0DEF6911B457E600028041D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0DEF6931B457E600028041D /* ImprovedReturnToBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImprovedReturnToBaseTests.m; sourceTree = "<group>"; };
-		A0DEF69D1B4580ED0028041D /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = ../DJI_SDK_iOS_V2.0.0/Lib/DJISDK.framework; sourceTree = "<group>"; };
-		A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
-		A0DEF6A11B4581330028041D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +71,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DEF6A21B4581330028041D /* libz.dylib in Frameworks */,
-				A0DEF6A01B45812B0028041D /* libstdc++.6.0.9.dylib in Frameworks */,
+				A0A3D2911B6171ED0063AA34 /* Blue1 in Frameworks */,
 				A0DEF6681B457E600028041D /* CoreGraphics.framework in Frameworks */,
-				A0DEF69E1B4580ED0028041D /* DJISDK.framework in Frameworks */,
 				A0DEF66A1B457E600028041D /* UIKit.framework in Frameworks */,
+				A0A3D28F1B616EC70063AA34 /* DJISDK.framework in Frameworks */,
+				A0A3D2951B61720D0063AA34 /* libz.1.dylib in Frameworks */,
 				A0DEF6661B457E600028041D /* Foundation.framework in Frameworks */,
+				A0A3D2961B61726A0063AA34 /* libstdc++.6.0.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +88,7 @@
 				A0DEF6881B457E600028041D /* XCTest.framework in Frameworks */,
 				A0DEF68A1B457E600028041D /* UIKit.framework in Frameworks */,
 				A0DEF6891B457E600028041D /* Foundation.framework in Frameworks */,
+				A0A3D2931B6171FD0063AA34 /* libstdc++.6.0.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +98,9 @@
 		A0DEF6591B457E600028041D = {
 			isa = PBXGroup;
 			children = (
-				A0DEF69D1B4580ED0028041D /* DJISDK.framework */,
+				A0A3D2921B6171FD0063AA34 /* libstdc++.6.0.9.dylib */,
+				A0A3D2941B61720D0063AA34 /* libz.1.dylib */,
+				A0A3D28E1B616EC70063AA34 /* DJISDK.framework */,
 				A0DEF66B1B457E600028041D /* ImprovedReturnToBase */,
 				A0DEF68D1B457E600028041D /* ImprovedReturnToBaseTests */,
 				A0DEF6641B457E600028041D /* Frameworks */,
@@ -113,8 +120,7 @@
 		A0DEF6641B457E600028041D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0DEF6A11B4581330028041D /* libz.dylib */,
-				A0DEF69F1B45812B0028041D /* libstdc++.6.0.9.dylib */,
+				A0A3D2901B6171ED0063AA34 /* Blue1 */,
 				A0DEF6651B457E600028041D /* Foundation.framework */,
 				A0DEF6671B457E600028041D /* CoreGraphics.framework */,
 				A0DEF6691B457E600028041D /* UIKit.framework */,

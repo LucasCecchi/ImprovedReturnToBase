@@ -58,9 +58,10 @@ bool isReturning = false;
 -(void) remoteController:_rc didUpdateGpsData:(DJIRCGPSData)gpsData{
     rcLatitude = gpsData.mLatitude;
     rcLongitude = gpsData.mLongitude;
-    
+    CLLocationCoordinate2D homePoint = {rcLatitude, rcLongitude};
+     [_maincontroller setHomePoint: homePoint WithResult:^(DJIError *error) {}];
+     
     if(isReturning){
-        CLLocationCoordinate2D homePoint = {rcLatitude, rcLongitude};
         
         if(CLLocationCoordinate2DIsValid(homePoint)){
             DJIGroundStationWaypoint* homeWayPoint = [[DJIGroundStationWaypoint alloc]initWithCoordinate:homePoint];

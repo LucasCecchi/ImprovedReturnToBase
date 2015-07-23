@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController<DJIDroneDelegate>{
     DJIDrone*_drone;
     DJIRemoteController*_rc;
+    DJIMainController*_maincontroller;
     NSObject<DJIGroundStation>* _groundStation;
 }
 
